@@ -16,7 +16,7 @@ public class doctor extends Actor
         myImage.scale(myNewWidth, myNewHeight);
     }
     
-    private int jumpHeight = 11;
+    private int jumpHeight = 6;
     private int walkSpeed = 5;
     private double fallSpeed = 0.4;
     
