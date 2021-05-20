@@ -68,5 +68,26 @@ public class Hospital extends World
         covid covid4 = new covid();
         addObject(covid4,318,172);
         piso.setLocation(305,755);
+        piso5.setLocation(447,226);
+        Piso piso6 = new Piso();
+        addObject(piso6,447,226);
+        piso5.setLocation(4,231);
+        piso4.setLocation(428,400);
+        Piso piso7 = new Piso();
+        addObject(piso7,428,400);
+        piso4.setLocation(420,410);
+        piso4.setLocation(865,399);
+        piso4.setLocation(844,402);
+        piso5.setLocation(56,229);
+        piso5.setLocation(56,228);
+        piso3.setLocation(39,576);
+        piso3.setLocation(447,576);
+        Piso piso8 = new Piso();
+        addObject(piso8,447,576);
+        doctor.setLocation(166,152);
+        doctor.setLocation(150,148);
+        doctor.setLocation(115,187);
+        doctor.setLocation(153,154);
+        doctor.setLocation(161,162);
     }
 }
