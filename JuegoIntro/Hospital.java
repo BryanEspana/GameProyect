@@ -86,5 +86,8 @@ public class Hospital extends World
         addObject(piso8,447,576);
         doctor.setLocation(166,152);
         doctor.setLocation(150,148);
+        doctor.setLocation(115,187);
+        doctor.setLocation(153,154);
+        doctor.setLocation(161,162);
     }
 }

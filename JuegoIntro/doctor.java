@@ -8,13 +8,12 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class doctor extends Actor
 {
-    public doctor()
-    {
-        GreenfootImage myImage = getImage();
-        int myNewHeight = (int)myImage.getHeight();
-        int myNewWidth = (int)myImage.getWidth();
-        myImage.scale(myNewWidth, myNewHeight);
-    }
+
+    
+    GifImage gifImage = new GifImage("doc.gif");
+    int speed = 2;
+    int count = 0;
+    
     
     private int jumpHeight = 6;
     private int walkSpeed = 5;
@@ -42,6 +41,8 @@ public class doctor extends Actor
      */
     public void act() 
     {
+        setImage( gifImage.getCurrentImage());
+        count++;
         if(inTheAir)
         {
             fall();
@@ -97,6 +98,7 @@ public class doctor extends Actor
             inTheAir = true;
         }
         setLocation((int)newX,(int)newY);
+        
     }
     private void getCommand()
     {
