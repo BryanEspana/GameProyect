@@ -89,5 +89,32 @@ public class Hospital extends World
         doctor.setLocation(115,187);
         doctor.setLocation(153,154);
         doctor.setLocation(161,162);
+        piso3.setLocation(94,578);
+        piso3.setLocation(32,580);
+        piso3.setLocation(77,577);
+        piso3.setLocation(54,578);
+        Piso piso9 = new Piso();
+        addObject(piso9,414,644);
+        piso3.setLocation(699,582);
+        piso3.setLocation(718,570);
+        piso9.setLocation(608,640);
+        removeObject(piso9);
+        piso3.setLocation(698,577);
+        piso3.setLocation(619,578);
+        piso3.setLocation(713,580);
+        piso8.setLocation(90,577);
+        piso8.setLocation(89,576);
+        piso8.setLocation(19,577);
+        piso3.setLocation(647,574);
+        piso3.setLocation(662,572);
+        piso3.setLocation(679,574);
+        piso3.setLocation(705,572);
+        piso3.setLocation(712,568);
+        piso3.setLocation(773,573);
+        piso3.setLocation(599,572);
+        piso8.setLocation(180,573);
+        piso3.setLocation(407,577);
+        piso3.setLocation(564,572);
+
     }
 }

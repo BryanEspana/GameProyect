@@ -10,7 +10,11 @@ public class doctor extends Actor
 {
 
     
-    GifImage gifImage = new GifImage("doc.gif");
+    GifImage myGif = new GifImage("doc.gif");
+    GifImage afkaniR = new GifImage("doc.gif");
+    GifImage runaniR = new GifImage("rundoc.gif");
+    GifImage afkaniL = new GifImage("afkleft.gif");
+    GifImage runaniL = new GifImage("runleft.gif");
     int speed = 2;
     int count = 0;
     
@@ -18,7 +22,9 @@ public class doctor extends Actor
     private int jumpHeight = 6;
     private int walkSpeed = 5;
     private double fallSpeed = 0.4;
-    
+    private boolean facingLeft = false;
+    int anim;
+    int atime;
     
     private boolean inTheAir = false;
     private double deltaX = 0;
@@ -41,8 +47,7 @@ public class doctor extends Actor
      */
     public void act() 
     {
-        setImage( gifImage.getCurrentImage());
-        count++;
+        setImage(myGif.getCurrentImage());
         if(inTheAir)
         {
             fall();
@@ -50,6 +55,7 @@ public class doctor extends Actor
             getCommand();
         }
         move();
+        animate();
     }    
     private void run(String direction)
     {
@@ -105,20 +111,32 @@ public class doctor extends Actor
         if(Greenfoot.isKeyDown("left"))
         {
             run("left");
+            myGif = runaniL;
         } else if(Greenfoot.isKeyDown("right"))
         {
             run("right");
+            myGif = runaniR;
         } else
         {
             stop();
+        if(facingLeft)
+        {
+            myGif = afkaniL;
+        }
+        else
+        {
+            myGif = afkaniR;
+        }
         }
         if(Greenfoot.isKeyDown("up"))
         {
             jump();
         }
     }
-    
-        
-        
+    private void animate()
+    {
+       if (Greenfoot.isKeyDown("left")) facingLeft = true;
+       if (Greenfoot.isKeyDown("right")) facingLeft = false;
+    }
     }
 
