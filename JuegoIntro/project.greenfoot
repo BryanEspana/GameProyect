@@ -1,8 +1,8 @@
 #Greenfoot project file
-class.Hospital.image=Hospital1.jpg
+class.Hospital.image=Hospital3.0.gif
 class.Piso.image=Piso.png
 class.covid.image=covid.gif
-class.doctor.image=Doctor.png
+class.doctor.image=doctor.png
 dependency1.from=Hospital
 dependency1.to=doctor
 dependency1.type=UsesDependency
