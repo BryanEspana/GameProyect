@@ -1,6 +1,5 @@
 #BlueJ class context
 comment0.target=doctor
-comment0.text=\n\ Write\ a\ description\ of\ class\ doctor\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
 comment1.params=myWorld
 comment1.target=void\ addedToWorld(greenfoot.World)
 comment10.params=
@@ -15,7 +14,7 @@ comment14.params=
 comment14.target=void\ muerte()
 comment2.params=
 comment2.target=void\ act()
-comment2.text=\n\ Act\ -\ do\ whatever\ the\ doctor\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.text=\r\n\ Act\ -\ do\ whatever\ the\ doctor\ wants\ to\ do.\ This\ method\ is\ called\ whenever\r\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\r\n
 comment3.params=direction
 comment3.target=void\ run(java.lang.String)
 comment4.params=

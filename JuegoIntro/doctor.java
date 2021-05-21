@@ -1,11 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
-* Write a description of class doctor here.
-* 
-* @author (your name) 
-* @version (a version number or a date)
-*/
 public class doctor extends Actor
 {
 
@@ -143,13 +137,7 @@ private void move()
               setLocation(getX(),ypos);
             }else {
                 jump();}
-        } else if (Greenfoot.isKeyDown("down") && (isOnLadder()) ){
-            myGif = subir;
-            int ypos = getY();
-            ypos = ypos + 5;
-            setLocation(getX(),ypos);
-        }
-       
+            }
         else if ("space".equals(Greenfoot.getKey())){
             disparoani = true;
             fire();
