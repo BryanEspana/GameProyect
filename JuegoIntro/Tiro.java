@@ -16,7 +16,7 @@ public class Tiro extends Actor
      */
     public void act() 
     {
-       if (conteo < 10) {
+       if (conteo < 15) {
        move(5); 
        conteo += 1;
     }else {

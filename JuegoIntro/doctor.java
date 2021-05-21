@@ -16,6 +16,9 @@ GifImage runaniR = new GifImage("rundoc.gif");
 GifImage afkaniL = new GifImage("afkleft.gif");
 GifImage runaniL = new GifImage("runleft.gif");
 GifImage subir = new GifImage("PersonajeSubir.gif");
+GifImage disparoR = new GifImage("PersonajeDisparoR.gif");
+GifImage disparoL = new GifImage("PersonajeDisparoL.gif");
+GifImage morir = new GifImage("PersonajeMorir.gif");
 int speed = 2;
 int count = 0;
 
@@ -24,6 +27,10 @@ private int jumpHeight = 6;
 private int walkSpeed = 5;
 private double fallSpeed = 0.4;
 private boolean facingLeft = false;
+private int pausem = 50;
+private int paused = 15;
+private boolean disparoani = false;
+private boolean covidtocar = false;
 
 
 private boolean inTheAir = false;
@@ -48,6 +55,11 @@ public void addedToWorld(World myWorld)
 public void act() 
 {
     setImage(myGif.getCurrentImage());
+    if(covidtocar)
+    {
+        muerte();
+    }
+    else{
     if(inTheAir)
     {
         fall();
@@ -57,7 +69,9 @@ public void act()
     }
     move();
     animate();
+    disparoanim();
     hitCovid();
+    }
 }    
 private void run(String direction)
 {
@@ -134,7 +148,10 @@ private void move()
             int ypos = getY();
             ypos = ypos + 5;
             setLocation(getX(),ypos);
-        } else if ("space".equals(Greenfoot.getKey())){
+        }
+       
+        else if ("space".equals(Greenfoot.getKey())){
+            disparoani = true;
             fire();
         }
         
@@ -154,9 +171,10 @@ private void move()
     }
     private void fire() {
         Tiro tiro = new Tiro();
-        getWorld().addObject(tiro,getX(),getY());
+        getWorld().addObject(tiro,getX()+25,getY()-10);
         if (facingLeft) {
-          tiro.setRotation(180);  
+          tiro.setRotation(180); 
+          tiro.setLocation(getX()-50, getY()-10);
         }
     }
     private void animate()
@@ -169,14 +187,37 @@ private void move()
         return isTouching(escalera.class);
     
     }
+    private void disparoanim()
+    {
+        if (disparoani) {
+            if(facingLeft){
+            myGif = disparoL;}
+            else{
+                myGif = disparoR;
+            }
+            if (paused>0){paused--;}
+            else{
+            disparoani = false;
+            paused = 15;
+        }
+        }
+    } 
     private void hitCovid()
     {
         Actor covid = getOneIntersectingObject(covid.class);
         if(covid != null)
-        {
-            World myWorld = getWorld();
-            myWorld.removeObject(this);
-        }
+            {covidtocar = true;}
     }
-} 
+    private void muerte()
+    {
+        myGif = morir;
+        if (pausem>0){pausem--;}
+        else{
+        World myWorld = getWorld();
+        myWorld.removeObject(this);
+        GameOver gameover = new GameOver();
+        myWorld.addObject(gameover, myWorld.getWidth()/2, myWorld.getHeight()/2);
+    }
+    }
+}
 
