@@ -22,6 +22,7 @@ public class covid extends Actor
         setImage( gifImage.getCurrentImage());
         count++;
         moveAround();
+        hitTiro();
     }    
     public void moveAround()
     {
@@ -31,6 +32,15 @@ public class covid extends Actor
             speed = -speed;
             getImage().mirrorHorizontally();
             count=0;
+        }
+    }
+    private void hitTiro()
+    {
+        Actor Tiro = getOneIntersectingObject(Tiro.class);
+        if(Tiro != null)
+        {
+            World myWorld = getWorld();
+            myWorld.removeObject(this);
         }
     }
 }
