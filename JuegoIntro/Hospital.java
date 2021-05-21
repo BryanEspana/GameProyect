@@ -29,34 +29,12 @@ public class Hospital extends World
         doctor doctor = new doctor();
         addObject(doctor,118,413);
         doctor.setLocation(40,680);
-        Piso piso = new Piso();
-        addObject(piso,364,750);
-        piso.setLocation(527,750);
-        Piso piso2 = new Piso();
-        addObject(piso2,527,750);
-        Piso piso3 = new Piso();
-        addObject(piso3,360,575);
-        Piso piso4 = new Piso();
-        addObject(piso4,529,402);
-        piso4.setLocation(527,401);
-        Piso piso5 = new Piso();
-        addObject(piso5,360,226);
+
         doctor.setLocation(41,682);
         doctor.setLocation(32,678);
-        piso.setLocation(501,695);
-        piso.setLocation(401,752);
-        piso.setLocation(401,752);
-        piso.setLocation(307,643);
-        piso.setLocation(142,755);
-        piso2.setLocation(522,750);
+
         doctor.setLocation(33,680);
-        piso.setLocation(229,751);
-        piso.setLocation(357,756);
-        piso.setLocation(3,754);
-        piso.setLocation(479,751);
-        piso.setLocation(129,748);
-        piso.setLocation(411,751);
-        piso.setLocation(329,748);
+
         covid covid = new covid();
         addObject(covid,487,432);
         covid.setLocation(521,687);
@@ -67,6 +45,31 @@ public class Hospital extends World
         addObject(covid3,489,347);
         covid covid4 = new covid();
         addObject(covid4,318,172);
-        piso.setLocation(305,755);
+
+        doctor.setLocation(166,152);
+        doctor.setLocation(150,148);
+        doctor.setLocation(115,187);
+        doctor.setLocation(153,154);
+        doctor.setLocation(161,162);
+
+        Piso piso = new Piso();
+        addObject(piso,354,227);
+        Piso piso2 = new Piso();
+        addObject(piso2,519,403);
+        Piso piso3 = new Piso();
+        addObject(piso3,357,577);
+        Piso piso4 = new Piso();
+        addObject(piso4,447,752);
+
+
+        escalera escalera = new escalera();
+        addObject(escalera,831,253);
+        escalera.setLocation(831,251);
+        escalera escalera2 = new escalera();
+        addObject(escalera2,42,425);
+        escalera2.setLocation(43,424);
+        escalera escalera3 = new escalera();
+        addObject(escalera3,837,600);
+        escalera3.setLocation(837,599);
     }
 }
