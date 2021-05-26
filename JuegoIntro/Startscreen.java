@@ -31,5 +31,7 @@ public class Startscreen extends World
         addObject(play,411,279);
         Exit exit = new Exit();
         addObject(exit,407,433);
+        afkleft afkleft = new afkleft();
+        addObject(afkleft,700,592);
     }
 }
