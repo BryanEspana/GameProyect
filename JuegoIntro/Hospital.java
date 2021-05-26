@@ -16,7 +16,9 @@ public class Hospital extends World
     public Hospital()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
-        super(887, 768, 1); 
+        super(887, 768, 1);
+        setPaintOrder(GameOver.class,doctor.class,puerta_abrir.class,puerta_cerrar.class,
+        Tiro.class, covid.class, escalera.class);
         prepare();
     }
 
@@ -26,14 +28,6 @@ public class Hospital extends World
      */
     private void prepare()
     {
-        doctor doctor = new doctor();
-        addObject(doctor,118,413);
-        doctor.setLocation(40,680);
-
-        doctor.setLocation(41,682);
-        doctor.setLocation(32,678);
-
-        doctor.setLocation(33,680);
 
         covid covid = new covid();
         addObject(covid,487,432);
@@ -46,12 +40,6 @@ public class Hospital extends World
         covid covid4 = new covid();
         addObject(covid4,318,172);
 
-        doctor.setLocation(166,152);
-        doctor.setLocation(150,148);
-        doctor.setLocation(115,187);
-        doctor.setLocation(153,154);
-        doctor.setLocation(161,162);
-
         Piso piso = new Piso();
         addObject(piso,354,227);
         Piso piso2 = new Piso();
@@ -60,7 +48,6 @@ public class Hospital extends World
         addObject(piso3,357,577);
         Piso piso4 = new Piso();
         addObject(piso4,447,752);
-
 
         escalera escalera = new escalera();
         addObject(escalera,831,253);
@@ -71,5 +58,9 @@ public class Hospital extends World
         escalera escalera3 = new escalera();
         addObject(escalera3,837,600);
         escalera3.setLocation(837,599);
+
+        puerta_abrir puerta_abrir = new puerta_abrir();
+        addObject(puerta_abrir,88,160);
+
     }
 }

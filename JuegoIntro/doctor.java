@@ -1,11 +1,14 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
+
+
 /**
 * Write a description of class doctor here.
 * 
 * @author (your name) 
 * @version (a version number or a date)
 */
+
 public class doctor extends Actor
 {
 
@@ -21,6 +24,8 @@ GifImage disparoL = new GifImage("PersonajeDisparoL.gif");
 GifImage morir = new GifImage("PersonajeMorir.gif");
 int speed = 2;
 int count = 0;
+int conteo2 = 1;
+
 
 
 private int jumpHeight = 6;
@@ -71,6 +76,7 @@ public void act()
     animate();
     disparoanim();
     hitCovid();
+    aparecer();
     }
 }    
 private void run(String direction)
@@ -125,16 +131,16 @@ private void move()
     
 }
     private void getCommand()
-{
-    if(Greenfoot.isKeyDown("left"))
     {
+        if(Greenfoot.isKeyDown("left"))
+        {
         run("left");
         myGif = runaniL;
-    } else if(Greenfoot.isKeyDown("right"))
-    {
+    }   else if(Greenfoot.isKeyDown("right"))
+        {
         run("right");
         myGif = runaniR;
-    } else if(Greenfoot.isKeyDown("up"))
+    }  else if(Greenfoot.isKeyDown("up"))
             {
               if(isOnLadder())  {
               myGif = subir;
@@ -142,14 +148,18 @@ private void move()
               ypos = ypos - 5;
               setLocation(getX(),ypos);
             }else {
-                jump();}
-        } else if (Greenfoot.isKeyDown("down") && (isOnLadder()) ){
+                jump();
+
+            }
+
+        }else if (Greenfoot.isKeyDown("down") && (isOnLadder()) ){
             myGif = subir;
             int ypos = getY();
-            ypos = ypos + 5;
+            ypos = ypos + 1;
             setLocation(getX(),ypos);
         }
        
+
         else if ("space".equals(Greenfoot.getKey())){
             disparoani = true;
             fire();
@@ -219,5 +229,12 @@ private void move()
         myWorld.addObject(gameover, myWorld.getWidth()/2, myWorld.getHeight()/2);
     }
     }
+        public void aparecer()
+    {
+        if (getWorld().getObjects(covid.class).isEmpty()){
+            getWorld().addObject(new puerta_cerrar(),91,685);
+        }
+    }
+    
 }
 
