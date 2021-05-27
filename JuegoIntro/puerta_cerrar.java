@@ -31,7 +31,12 @@ public class puerta_cerrar extends Actor
                 setImage(puerta_abierta);
                 conteo2 += 1;
             }else {
-                Greenfoot.setWorld(new Hospital2());
+            if (getWorld() instanceof Hospital){
+                Greenfoot.setWorld(new Hospital2());}
+            if (getWorld() instanceof Hospital2){
+                Greenfoot.setWorld(new Hospital3());}
+            if (getWorld() instanceof Hospital3){
+            Greenfoot.setWorld(new Startscreen());}
         }   
         }
     }
