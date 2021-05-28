@@ -8,7 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Hospital extends World
 {
-    GreenfootSound cancion_nivel1 = new GreenfootSound(" ");
     /**
      * Constructor for objects of class Hospital.
      * 
@@ -19,7 +18,6 @@ public class Hospital extends World
         super(887, 768, 1);
         setPaintOrder(GameOver.class,doctor.class,puerta_abrir.class,puerta_cerrar.class,
         Tiro.class, covid.class, escalera.class);
-        cancion_nivel1.playLoop();
         prepare();
     }
 
@@ -62,6 +60,5 @@ public class Hospital extends World
 
         puerta_abrir puerta_abrir = new puerta_abrir();
         addObject(puerta_abrir,88,160);
-
     }
 }

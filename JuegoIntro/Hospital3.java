@@ -8,7 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Hospital3 extends World
 {
-    GreenfootSound cancion_nivel3 = new GreenfootSound(" ");
     /**
      * Constructor for objects of class Hospital3.
      * 
@@ -19,7 +18,6 @@ public class Hospital3 extends World
         super(887, 768, 1);
         setPaintOrder(GameOver.class,doctor.class,puerta_abrir.class,puerta_cerrar.class,
             Tiro.class, covid.class, escalera.class);
-            cancion_nivel3.playLoop();
         prepare();
     }
 
@@ -29,9 +27,6 @@ public class Hospital3 extends World
      */
     private void prepare()
     {
-        puerta_abrir puerta_abrir = new puerta_abrir();
-        addObject(puerta_abrir,105,163);
-
         covid covid = new covid();
         addObject(covid,744,177);
         covid.setLocation(225,351);
@@ -55,7 +50,7 @@ public class Hospital3 extends World
 
         Piso piso = new Piso();
         addObject(piso,362,227);
-        
+
         Piso piso3 = new Piso();
         addObject(piso3,370,577);
         escalera escalera = new escalera();
@@ -70,11 +65,19 @@ public class Hospital3 extends World
         addObject(covid10,306,175);
         covid covid11 = new covid();
         addObject(covid11,611,181);
-        
+
         covid4.setLocation(213,530);
         covid5.setLocation(447,519);
 
         Piso piso2 = new Piso();
         addObject(piso2,524,402);
+        piso3.setLocation(883,762);
+        canciones canciones = new canciones();
+        addObject(canciones,883,762);
+        piso3.setLocation(887,768);
+        piso3.setLocation(886,772);
+        piso3.setLocation(887,765);
+        puerta_abrir puerta_abrir = new puerta_abrir();
+        addObject(puerta_abrir,95,160);
     }
 }

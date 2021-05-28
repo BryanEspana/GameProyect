@@ -8,7 +8,6 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Hospital2 extends World
 {
-    GreenfootSound cancion_nivel2 = new GreenfootSound(" ");
     /**
      * Constructor for objects of class Hospital2.
      * 
@@ -19,7 +18,6 @@ public class Hospital2 extends World
         super(887, 768, 1); 
         setPaintOrder(GameOver.class,doctor.class,puerta_abrir.class,puerta_cerrar.class,
         Tiro.class, covid.class, escalera.class);
-        cancion_nivel2.playLoop();
         prepare();
     }
 
@@ -72,5 +70,18 @@ public class Hospital2 extends World
         covid5.setLocation(304,375);
         covid5.setLocation(341,346);
         covid6.setLocation(526,179);
+        canciones canciones = new canciones();
+        addObject(canciones,880,760);
+        canciones.setLocation(884,766);
+        canciones.setLocation(876,751);
+        removeObject(piso);
+        removeObject(canciones);
+        addObject(piso,448,748);
+        covid5.setLocation(39,338);
+        covid4.setLocation(587,333);
+        removeObject(escalera3);
+        removeObject(escalera);
+        removeObject(escalera2);
+        addObject(escalera3,836,598);
     }
 }
