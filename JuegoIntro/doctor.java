@@ -22,6 +22,12 @@ GifImage subir = new GifImage("PersonajeSubir.gif");
 GifImage disparoR = new GifImage("PersonajeDisparoR.gif");
 GifImage disparoL = new GifImage("PersonajeDisparoL.gif");
 GifImage morir = new GifImage("PersonajeMorir.gif");
+GreenfootSound smuerte = new GreenfootSound("muerte.mp3");
+
+
+GreenfootSound svacuna = new GreenfootSound("vacuna.mp3");
+
+
 int speed = 2;
 int count = 0;
 int conteo2 = 1;
@@ -63,6 +69,8 @@ public void act()
     if(covidtocar)
     {
         muerte();
+        if (smuerte.isPlaying() != true){
+        smuerte.play();}
     }
     else{
     if(inTheAir)
@@ -140,7 +148,7 @@ private void move()
         {
         run("right");
         myGif = runaniR;
-    }  else if(Greenfoot.isKeyDown("up"))
+            }  else if(Greenfoot.isKeyDown("up"))
             {
               if(isOnLadder())  {
               myGif = subir;
@@ -163,6 +171,9 @@ private void move()
         else if ("space".equals(Greenfoot.getKey())){
             disparoani = true;
             fire();
+            if (svacuna.isPlaying() != true){
+                svacuna.stop();
+                svacuna.play();}
         }
         
         

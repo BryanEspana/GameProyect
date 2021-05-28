@@ -9,7 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class puerta_cerrar extends Actor
 {
     private int conteo1 = 0;
-
+    GreenfootSound sdoor = new GreenfootSound("door.mp3");
     private int conteo2 = 0;
     GreenfootImage puerta_abierta = new GreenfootImage("puerta_abierta.png");
     GreenfootImage puerta_cerrada = new GreenfootImage("puerta_cerrada.png");
