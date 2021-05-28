@@ -232,7 +232,12 @@ private void move()
         public void aparecer()
     {
         if (getWorld().getObjects(covid.class).isEmpty()){
-            getWorld().addObject(new puerta_cerrar(),91,685);
+            if (getWorld() instanceof Hospital){
+            getWorld().addObject(new puerta_cerrar(),91,685);}
+            if (getWorld() instanceof Hospital2){
+            getWorld().addObject(new puerta_cerrar(),91,161);}
+            if (getWorld() instanceof Hospital3){
+            getWorld().addObject(new puerta_cerrar(),91,685);}
         }
     }
     

@@ -2,7 +2,12 @@
 class.Exit.image=LetretoExit.png
 class.GameOver.image=GameOver.png
 class.Hospital.image=Hospital3.0.gif
+<<<<<<< HEAD
 class.Hospital2.image=Nivel2Completo.gif
+=======
+class.Hospital2.image=Fondonivel2.png
+class.Hospital3.image=Fondonivel3.png
+>>>>>>> main
 class.Piso.image=Piso2.png
 class.Play.image=Letrero\ Play.png
 class.Startscreen.image=Starscreen2.gif
@@ -13,9 +18,10 @@ class.doctor.image=doc.gif
 class.escalera.image=escalera2.png
 class.puerta_abrir.image=puerta_abierta.png
 class.puerta_cerrar.image=puerta_abierta.png
-dependency1.from=Startscreen
-dependency1.to=Play
+dependency1.from=Hospital2
+dependency1.to=puerta_abrir
 dependency1.type=UsesDependency
+<<<<<<< HEAD
 dependency10.from=Hospital
 dependency10.to=puerta_cerrar
 dependency10.type=UsesDependency
@@ -45,10 +51,42 @@ dependency18.to=puerta_cerrar
 dependency18.type=UsesDependency
 dependency19.from=doctor
 dependency19.to=Piso
+=======
+dependency10.from=Hospital3
+dependency10.to=covid
+dependency10.type=UsesDependency
+dependency11.from=Hospital3
+dependency11.to=Piso
+dependency11.type=UsesDependency
+dependency12.from=Hospital3
+dependency12.to=escalera
+dependency12.type=UsesDependency
+dependency13.from=Hospital3
+dependency13.to=GameOver
+dependency13.type=UsesDependency
+dependency14.from=Hospital3
+dependency14.to=doctor
+dependency14.type=UsesDependency
+dependency15.from=Hospital3
+dependency15.to=puerta_cerrar
+dependency15.type=UsesDependency
+dependency16.from=Hospital3
+dependency16.to=Tiro
+dependency16.type=UsesDependency
+dependency17.from=Startscreen
+dependency17.to=Play
+dependency17.type=UsesDependency
+dependency18.from=Startscreen
+dependency18.to=Exit
+dependency18.type=UsesDependency
+dependency19.from=Hospital
+dependency19.to=covid
+>>>>>>> main
 dependency19.type=UsesDependency
-dependency2.from=Startscreen
-dependency2.to=Exit
+dependency2.from=Hospital2
+dependency2.to=Piso
 dependency2.type=UsesDependency
+<<<<<<< HEAD
 dependency20.from=doctor
 dependency20.to=escalera
 dependency20.type=UsesDependency
@@ -92,6 +130,111 @@ editor.fx.0.y=0
 height=838
 package.numDependencies=24
 package.numTargets=17
+=======
+dependency20.from=Hospital
+dependency20.to=Piso
+dependency20.type=UsesDependency
+dependency21.from=Hospital
+dependency21.to=escalera
+dependency21.type=UsesDependency
+dependency22.from=Hospital
+dependency22.to=puerta_abrir
+dependency22.type=UsesDependency
+dependency23.from=Hospital
+dependency23.to=GameOver
+dependency23.type=UsesDependency
+dependency24.from=Hospital
+dependency24.to=doctor
+dependency24.type=UsesDependency
+dependency25.from=Hospital
+dependency25.to=puerta_cerrar
+dependency25.type=UsesDependency
+dependency26.from=Hospital
+dependency26.to=Tiro
+dependency26.type=UsesDependency
+dependency27.from=covid
+dependency27.to=GifImage
+dependency27.type=UsesDependency
+dependency28.from=GameOver
+dependency28.to=Startscreen
+dependency28.type=UsesDependency
+dependency29.from=puerta_abrir
+dependency29.to=doctor
+dependency29.type=UsesDependency
+dependency3.from=Hospital2
+dependency3.to=escalera
+dependency3.type=UsesDependency
+dependency30.from=doctor
+dependency30.to=GifImage
+dependency30.type=UsesDependency
+dependency31.from=doctor
+dependency31.to=Tiro
+dependency31.type=UsesDependency
+dependency32.from=doctor
+dependency32.to=GameOver
+dependency32.type=UsesDependency
+dependency33.from=doctor
+dependency33.to=Hospital
+dependency33.type=UsesDependency
+dependency34.from=doctor
+dependency34.to=puerta_cerrar
+dependency34.type=UsesDependency
+dependency35.from=doctor
+dependency35.to=Hospital2
+dependency35.type=UsesDependency
+dependency36.from=doctor
+dependency36.to=Hospital3
+dependency36.type=UsesDependency
+dependency37.from=doctor
+dependency37.to=Piso
+dependency37.type=UsesDependency
+dependency38.from=doctor
+dependency38.to=escalera
+dependency38.type=UsesDependency
+dependency39.from=doctor
+dependency39.to=covid
+dependency39.type=UsesDependency
+dependency4.from=Hospital2
+dependency4.to=covid
+dependency4.type=UsesDependency
+dependency40.from=Play
+dependency40.to=Hospital
+dependency40.type=UsesDependency
+dependency41.from=puerta_cerrar
+dependency41.to=Hospital
+dependency41.type=UsesDependency
+dependency42.from=puerta_cerrar
+dependency42.to=Hospital2
+dependency42.type=UsesDependency
+dependency43.from=puerta_cerrar
+dependency43.to=Hospital3
+dependency43.type=UsesDependency
+dependency44.from=puerta_cerrar
+dependency44.to=Startscreen
+dependency44.type=UsesDependency
+dependency5.from=Hospital2
+dependency5.to=GameOver
+dependency5.type=UsesDependency
+dependency6.from=Hospital2
+dependency6.to=doctor
+dependency6.type=UsesDependency
+dependency7.from=Hospital2
+dependency7.to=puerta_cerrar
+dependency7.type=UsesDependency
+dependency8.from=Hospital2
+dependency8.to=Tiro
+dependency8.type=UsesDependency
+dependency9.from=Hospital3
+dependency9.to=puerta_abrir
+dependency9.type=UsesDependency
+editor.fx.0.height=722
+editor.fx.0.width=800
+editor.fx.0.x=487
+editor.fx.0.y=29
+height=811
+package.numDependencies=44
+package.numTargets=16
+>>>>>>> main
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -121,20 +264,29 @@ target10.width=130
 target10.x=0
 target10.y=0
 target11.height=50
+<<<<<<< HEAD
 target11.name=Play
+=======
+target11.name=Hospital3
+>>>>>>> main
 target11.showInterface=false
 target11.type=ClassTarget
 target11.width=80
 target11.x=0
 target11.y=0
 target12.height=50
+<<<<<<< HEAD
 target12.name=Hospital2
+=======
+target12.name=Tiro
+>>>>>>> main
 target12.showInterface=false
 target12.type=ClassTarget
 target12.width=80
 target12.x=0
 target12.y=0
 target13.height=50
+<<<<<<< HEAD
 target13.name=Tiro
 target13.showInterface=false
 target13.type=ClassTarget
@@ -150,18 +302,40 @@ target14.x=0
 target14.y=0
 target15.height=50
 target15.name=puerta_cerrar
+=======
+target13.name=Startscreen
+target13.showInterface=false
+target13.type=ClassTarget
+target13.width=90
+target13.x=0
+target13.y=0
+target14.height=50
+target14.name=puerta_cerrar
+target14.showInterface=false
+target14.type=ClassTarget
+target14.width=100
+target14.x=0
+target14.y=0
+target15.height=50
+target15.name=Hospital
+>>>>>>> main
 target15.showInterface=false
 target15.type=ClassTarget
 target15.width=100
 target15.x=0
 target15.y=0
 target16.height=50
+<<<<<<< HEAD
 target16.name=Hospital
+=======
+target16.name=Exit
+>>>>>>> main
 target16.showInterface=false
 target16.type=ClassTarget
 target16.width=80
 target16.x=0
 target16.y=0
+<<<<<<< HEAD
 target17.height=50
 target17.name=Exit
 target17.showInterface=false
@@ -169,6 +343,8 @@ target17.type=ClassTarget
 target17.width=80
 target17.x=0
 target17.y=0
+=======
+>>>>>>> main
 target2.height=50
 target2.name=GameOver
 target2.showInterface=false
@@ -205,14 +381,18 @@ target6.width=80
 target6.x=0
 target6.y=0
 target7.height=50
-target7.name=GifImage
+target7.name=starscreen_actores
 target7.showInterface=false
 target7.type=ClassTarget
-target7.width=80
+target7.width=130
 target7.x=0
 target7.y=0
 target8.height=50
+<<<<<<< HEAD
 target8.name=Mover
+=======
+target8.name=GifImage
+>>>>>>> main
 target8.showInterface=false
 target8.type=ClassTarget
 target8.width=80
@@ -226,7 +406,14 @@ target9.width=80
 target9.x=0
 target9.y=0
 version=3.0.0
+<<<<<<< HEAD
 width=1550
 world.lastInstantiated=Startscreen
 xPosition=0
 yPosition=0
+=======
+width=1148
+world.lastInstantiated=Startscreen
+xPosition=292
+yPosition=23
+>>>>>>> main
