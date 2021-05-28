@@ -9,6 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class puerta_abrir extends Actor
 {
     private int conteo1 = 0;
+    GreenfootSound sdoor = new GreenfootSound("door.mp3");
 
     private int conteo2 = 0;
     GreenfootImage puerta_abierta = new GreenfootImage("puerta_abierta.png");
@@ -19,7 +20,8 @@ public class puerta_abrir extends Actor
      */
     public void act() 
     {
-        if (conteo1 < 20) {
+        if(conteo1 == 0){sdoor.play();}
+        if (conteo1 < 40) {
            conteo1 += 1;
         }else{
           docnuevo();
