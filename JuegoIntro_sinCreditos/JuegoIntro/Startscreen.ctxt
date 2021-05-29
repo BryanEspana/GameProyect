@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Startscreen
+comment0.text=Mundo\ creado\ para\ darle\ al\ jugador\ una\ pantalla\ de\ inicio,\ \n\ donde\ comenzar\ el\ juego\ no\ solo\ al\ jugar\ por\ primera\ vez.\n\ Tambien\ cuando\ sea\ vencido\ por\ el\ COVID\ y\ cuando\ llegue\ al\ final.\n
+comment1.params=
+comment1.target=Startscreen()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Startscreen.\n\ \n
+comment2.params=
+comment2.target=void\ prepare()
+comment2.text=\n\ Prepare\ the\ world\ for\ the\ start\ of\ the\ program.\n\ That\ is\:\ create\ the\ initial\ objects\ and\ add\ them\ to\ the\ world.\n
+numComments=3

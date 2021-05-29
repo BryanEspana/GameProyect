@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=escalera
+comment0.text=\n\ Actor\ que\ le\ indica\ al\ actor\ jugable\ donde\ puede\ subir\ o\ bajar\ a\ otra\ \ \ \n\ plataforma\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ escalera\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+numComments=2

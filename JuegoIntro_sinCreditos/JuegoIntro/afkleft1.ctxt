@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=afkleft1
+comment0.text=\n\ Modelo\ utilizado\ en\ la\ pantalla\ de\ inicio,\ es\ un\ gif\ del\ personaje\n\ en\ su\ posici\u00F3n\ afk\ viendo\ hacia\ el\ lado\ izquierdo\ donde\ estan\ los\ botones.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ afkleft1\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+numComments=2

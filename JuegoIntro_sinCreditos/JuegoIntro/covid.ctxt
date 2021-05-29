@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=covid
+comment0.text=\n\ Enemigo\ en\ el\ juego,\ se\ mueve\ de\ un\ lado\ a\ otro\ y\ si\ toca\ al\ actor\n\ jugable\ se\ dara\ una\ GameOver\ y\ retornara\ a\ Starscreen.\ Si\ es\ tocado\ por\n\ el\ actor\ Tiro\ se\ desaparecera\ del\ mundo.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ covid\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=
+comment2.target=void\ moveAround()
+comment3.params=
+comment3.target=void\ hitTiro()
+comment4.params=
+comment4.target=void\ hitTheEdge()
+numComments=5

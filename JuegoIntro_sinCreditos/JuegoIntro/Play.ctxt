@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Play
+comment0.text=\n\ Boton\ para\ inciar\ el\ juego,\ este\ es\ creado\ y\ comenzar\u00E1\ a\ sonar\ la\ musica\ \n\ del\ inicio.\ Al\ ser\ presionado\ la\ musica\ parar\u00E1\ y\ se\ pasara\ al\ primer\ nivel.\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Play\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+numComments=2
