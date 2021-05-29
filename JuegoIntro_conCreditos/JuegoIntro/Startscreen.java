@@ -1,11 +1,9 @@
     import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
     
-    /**
-     * Write a description of class Startscreen here.
-     * 
-     * @author (your name) 
-     * @version (a version number or a date)
-     */
+    /**Mundo creado para darle al jugador una pantalla de inicio, 
+     * donde comenzar el juego no solo al jugar por primera vez.
+     * Tambien cuando sea vencido por el COVID y cuando llegue al final.
+    */
 public class Startscreen extends World
 {
    

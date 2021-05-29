@@ -1,10 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Creditos here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Mundo de creditos, en este mundo se mostrara al jugador cuando haya vencido
+ * todos los niveles.
  */
 public class Creditos extends World
 {

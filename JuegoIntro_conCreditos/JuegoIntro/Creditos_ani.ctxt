@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Creditos_ani
-comment0.text=\n\ Write\ a\ description\ of\ class\ Creditos_ani\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Este\ actor\ le\ muestra\ al\ jugador\ los\ creditos\ del\ juego\ una\ vez\ haya\ \n\ vencido\ todos\ los\ niveles.\ Contiene\ un\ gif\ y\ una\ cancion\ que\ son\ iniciados\ \n\ al\ mismo\ momento.\ Ambos\ duran\ 15\ segundos.\ Se\ creo\ un\ contador\ que\ al\ \n\ \n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\n\ Act\ -\ do\ whatever\ the\ Creditos_ani\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n

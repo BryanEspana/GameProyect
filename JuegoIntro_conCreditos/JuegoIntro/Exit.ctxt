@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Exit
-comment0.text=\n\ Write\ a\ description\ of\ class\ Exit\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Boton\ para\ salir\ del\ juego,\ cuando\ el\ mouse\ lo\ presiona\ se\ cerrara\ Greenfoot\n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\n\ Act\ -\ do\ whatever\ the\ Exit\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n

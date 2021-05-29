@@ -1,10 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class GameOver here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Este actor se crea cuando el jugador es tocado por el COVID, despues de 100 
+ * actos se retorna al mundo de Startscreen.
  */
 public class GameOver extends Actor
 {

@@ -1,10 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class puerta_abrir here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Este actor es es la puerta al inicio de cada nivel, cuando se crea el 
+ * nivel este actor crea al actor jugable y desaparece para no seguir
+ * creando doctores.
  */
 public class puerta_abrir extends Actor
 {

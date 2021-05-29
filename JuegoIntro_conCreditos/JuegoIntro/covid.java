@@ -1,10 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class covid here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Enemigo en el juego, se mueve de un lado a otro y si toca al actor
+ * jugable se dara una GameOver y retornara a Starscreen. Si es tocado por
+ * el actor Tiro se desaparecera del mundo.
  */
 public class covid extends Actor
 {

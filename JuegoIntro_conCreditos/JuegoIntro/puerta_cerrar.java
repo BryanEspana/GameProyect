@@ -1,10 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class puerta_abrir here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Este actor es creado cuando el actor jugable vence a todos los COVIDs,
+ *se crea como una puerta abierta estatica, cuando el actor jugable la 
+ *intersecta se pasa al siguiente nivel.
  */
 public class puerta_cerrar extends Actor
 {
@@ -22,15 +21,16 @@ public class puerta_cerrar extends Actor
         next();
     }
     
-    public void next()
+    public void next() //modulo para cambiar de nivel en orden.
     {
         Actor doctor = getOneIntersectingObject(doctor.class);
         if(doctor != null)
         {
-            if (conteo2 < 20) {
+            if (conteo2 < 20) //20 actos despues de que el actor jugable interseccione se cambiara de nivel.
+            {
                 setImage(puerta_abierta);
                 conteo2 += 1;
-            }else {
+            }else {//el actor verá en que mundo esta y cambiara al siguente nivel.
             if (getWorld() instanceof Hospital){
                 Greenfoot.setWorld(new Hospital2());}
             if (getWorld() instanceof Hospital2){

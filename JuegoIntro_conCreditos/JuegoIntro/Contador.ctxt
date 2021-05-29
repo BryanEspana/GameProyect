@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Contador
-comment0.text=\n\ Write\ a\ description\ of\ class\ Contador\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Clase\ unicamente\ utilizada\ en\ el\ mundo\ de\ Creditos.\ El\ proposito\ de\ este\ \n\ actor\ es\ funcionar\ como\ un\ contador\ para\ crear\ al\ actor\ Creditos_ani\n\ donde\ se\ muestran\ los\ creditos\ del\ juego.\ Este\ actor\ es\ necesario\ ya\ que\ \n\ si\ el\ actor\ Creditos_ani\ se\ creara\ junto\ con\ el\ mundo\ al\ vencer\ todos\ los\n\ niveles,\ Greenfoot\ tiene\ problemas\ de\ espacio\ de\ memoria.\ \n
 comment1.params=myWorld
 comment1.target=void\ addedToWorld(greenfoot.World)
 comment2.params=

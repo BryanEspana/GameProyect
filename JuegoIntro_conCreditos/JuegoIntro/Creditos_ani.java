@@ -1,10 +1,10 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Creditos_ani here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Este actor le muestra al jugador los creditos del juego una vez haya 
+ * vencido todos los niveles. Contiene un gif y una cancion que son iniciados 
+ * al mismo momento. Ambos duran 15 segundos. Se creo un contador que al 
+ * terminar esos 15 segundos se regresara al mundo Startscreen.
  */
 public class Creditos_ani extends Actor
 {

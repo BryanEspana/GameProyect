@@ -1,10 +1,8 @@
     import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
     
     /**
-    * Write a description of class afkleft1 here.
-    * 
-    * @author (your name) 
-    * @version (a version number or a date)
+    * Modelo utilizado en la pantalla de inicio, es un gif del personaje
+    * en su posición afk viendo hacia el lado izquierdo donde estan los botones.
     */
     public class afkleft1 extends starscreen_actores
     {

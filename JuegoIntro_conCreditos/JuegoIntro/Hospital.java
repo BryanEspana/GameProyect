@@ -1,10 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Hospital here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Primer nivel del juego, se trata de introducir al jugador las mecanicas de 
+ * movimiento y disparar al COVID. 
  */
 public class Hospital extends World
 {

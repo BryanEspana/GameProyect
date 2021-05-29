@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=puerta_abrir
-comment0.text=\n\ Write\ a\ description\ of\ class\ puerta_abrir\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Este\ actor\ es\ es\ la\ puerta\ al\ inicio\ de\ cada\ nivel,\ cuando\ se\ crea\ el\ \n\ nivel\ este\ actor\ crea\ al\ actor\ jugable\ y\ desaparece\ para\ no\ seguir\n\ \n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\n\ Act\ -\ do\ whatever\ the\ puerta_abrir\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n

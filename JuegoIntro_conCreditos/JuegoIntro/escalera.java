@@ -1,10 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class escalera here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Actor que le indica al actor jugable donde puede subir o bajar a otra   
+ * plataforma
  */
 public class escalera extends Actor
 {

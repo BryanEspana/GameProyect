@@ -1,10 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class starscreen_actores here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ *Clase que contiene a los actores que son usados en la pantalla de inicio.
+ *Se separan de los otros actores para no confundirlos ya que tienen modulos
+ *para reiniciar y terminar el juego.
  */
 public class starscreen_actores extends Actor
 {

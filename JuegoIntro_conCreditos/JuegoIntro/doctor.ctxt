@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=doctor
-comment0.text=\n\ Write\ a\ description\ of\ class\ doctor\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Actor\ jugable,\ este\ no\ solo\ tiene\ modulos\ para\ movimiento\n\ y\ disparo.\ Tambien\ contiene\ para\ crear\ la\ pantalla\ de\ GameOver,\n\ cambiar\ de\ musica\ al\ cambiar\ de\ nivel\ y\ crear\ la\ puerta\ para\n\ cambiar\ de\ nivel\ cuando\ vence\ a\ todos\ los\ COVIDs.\n
 comment1.params=myWorld
 comment1.target=void\ addedToWorld(greenfoot.World)
 comment10.params=

@@ -1,10 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Contador here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Clase unicamente utilizada en el mundo de Creditos. El proposito de este 
+ * actor es funcionar como un contador para crear al actor Creditos_ani
+ * donde se muestran los creditos del juego. Este actor es necesario ya que 
+ * si el actor Creditos_ani se creara junto con el mundo al vencer todos los
+ * niveles, Greenfoot tiene problemas de espacio de memoria. 
  */
 public class Contador extends Actor
 {   

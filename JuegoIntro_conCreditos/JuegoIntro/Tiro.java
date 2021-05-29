@@ -1,10 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Tiro here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Este actor es el disparo de la vacuna del doctor, al ser creado se mueve 
+ * por 15 actos y desaparece.
  */
 
 public class Tiro extends Actor

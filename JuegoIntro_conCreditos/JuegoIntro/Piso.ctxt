@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Piso
-comment0.text=\n\ Write\ a\ description\ of\ class\ Piso\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Actor\ utilizado\ para\ marcar\ donde\ esta\ la\ plataforma\ para\ que\ el\ actor\ \n\ jugable\ este\ sobre\ ella.\n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\n\ Act\ -\ do\ whatever\ the\ Piso\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n

@@ -1,10 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Piso here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Actor utilizado para marcar donde esta la plataforma para que el actor 
+ * jugable este sobre ella.
  */
 public class Piso extends Actor
 {

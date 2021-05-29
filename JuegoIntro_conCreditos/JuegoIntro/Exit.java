@@ -1,10 +1,7 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Exit here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Boton para salir del juego, cuando el mouse lo presiona se cerrara Greenfoot
  */
 public class Exit extends starscreen_actores
 {

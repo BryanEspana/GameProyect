@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=starscreen_actores
-comment0.text=\n\ Write\ a\ description\ of\ class\ starscreen_actores\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\nClase\ que\ contiene\ a\ los\ actores\ que\ son\ usados\ en\ la\ pantalla\ de\ inicio.\nSe\ separan\ de\ los\ otros\ actores\ para\ no\ confundirlos\ ya\ que\ tienen\ modulos\npara\ reiniciar\ y\ terminar\ el\ juego.\n
 comment1.params=
 comment1.target=void\ act()
 comment1.text=\n\ Act\ -\ do\ whatever\ the\ starscreen_actores\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n

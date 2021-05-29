@@ -1,10 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Hospital2 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * El segundo nivel del juego, se aumenan la cantidad de enemigos por 
+ * plataforma y se introduce el reto de subir las escaleras sin ser tocado.
  */
 public class Hospital2 extends World
 {

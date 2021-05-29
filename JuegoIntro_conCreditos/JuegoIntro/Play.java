@@ -1,10 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Play here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Boton para inciar el juego, este es creado y comenzará a sonar la musica 
+ * del inicio. Al ser presionado la musica parará y se pasara al primer nivel.
  */
 public class Play extends starscreen_actores
 {

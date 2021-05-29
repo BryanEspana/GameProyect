@@ -1,10 +1,9 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Hospital3 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ *Tercer nivel de juego, se aumentan los enemigos además de ponerlos en 
+ *posiciones donde el jugador al bajar la plataforma puede pegarles, por lo 
+ *que tendra que estar conciente de esto al moverse en el nivel.
  */
 public class Hospital3 extends World
 {
